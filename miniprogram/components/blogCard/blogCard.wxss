@@ -1,0 +1,43 @@
+.cardTitle{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 15rpx;
+  background-color: #ffff;
+}
+.userImg, .userImg .userAvi{
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 30rpx;
+}
+.userInf{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 10rpx;
+}
+.userInf .postTime{
+  color: #555252;
+  font-size: 12px;
+}
+.userInf .userName{
+  font-size: 14px;
+  font-weight: bold;
+}
+.imgList{
+  background-color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding-top: 10rpx;
+}
+.imgList .blogImg{
+  width: 230rpx;
+  height: 230rpx;
+  margin: 0 10rpx 10rpx 10rpx;
+}
+.textContent{
+  padding-left: 15rpx;
+  background-color: #ffff;
+  padding-top: 10rpx;
+}

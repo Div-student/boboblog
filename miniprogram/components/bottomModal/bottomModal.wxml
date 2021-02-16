@@ -1,0 +1,6 @@
+<view class="modalMask" hidden="{{!isShowModal}}">
+  <view class="modalPanel" style="bottom:{{bottomPosition}}">
+    <i class='iconfont icon-delete' bindtap="closePanel"></i>
+    <slot name='modalContent'></slot>
+  </view>
+</view>

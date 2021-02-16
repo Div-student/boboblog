@@ -1,0 +1,4 @@
+<button type="primary" bindtap='getGoodList'>点击请求后台数据</button>
+<block wx:for='{{swiperList}}' wx:key="_id">
+  <image src="{{item.image_src}}"></image>
+</block>

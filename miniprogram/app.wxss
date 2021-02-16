@@ -1,0 +1,16 @@
+/* 样式文件写成相对路径 */
+@import './style/inconfont.wxss';
+
+/* 微信的初始化标签 */
+page,text,view,swiper,swiper-item,image,navigator{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+/* 自定义的主题颜色 */
+page{
+  --themeColor: #eb4450;
+  font-size: 28rpx;
+}

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "blog-card":"../../components/blogCard/blogCard",
+    "blog-comment": "../../components/comment/comment"
+  }
+}

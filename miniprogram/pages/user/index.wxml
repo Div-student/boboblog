@@ -1,0 +1,7 @@
+<view>
+  <view><button type='primary' bind:tap='authorMessage'>订阅消息</button></view>
+  <view>
+  <view>Q:如何实时收到别人对你发布的博客的评论消息？</view>
+  <view>A:点击👆「订阅消息」按钮->勾选“总是保持以上选择，不再询问。</view>
+  </view>
+</view>

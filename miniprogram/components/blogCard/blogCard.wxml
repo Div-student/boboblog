@@ -1,0 +1,17 @@
+<view class="blogCard">
+  <view class="cardTitle">
+    <view class="userImg"><image class="userAvi" src="{{blogList.avatarUrl}}" mode="widthFix"></image></view>
+    <view class="userInf">
+      <view class="userName">{{blogList.nickName}}</view>
+      <view class="postTime">{{createTime}}</view>
+    </view>
+  </view>
+  <view class="textContent">
+    {{blogList.content}}
+  </view>
+  <view class="imgList">
+    <block wx:for='{{blogList.img}}' wx:key='*this'>
+      <image class="blogImg" src="{{item}}" mode="aspectFill" catch:tap="previewIng" data-imgUrl="{{item}}"></image>
+    </block>
+  </view>
+</view>

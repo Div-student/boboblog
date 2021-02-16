@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/fistPage/fistPage",
+    "pages/find/index",
+    "pages/search/index",
+    "pages/user/index",
+    "pages/postBlog/postBlog",
+    "pages/blogDetail/blogDetail"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#eb4450",
+    "navigationBarTitleText": "每日一题",
+    "navigationBarTextStyle": "white"
+  },
+  "style": "v2",
+  "tabBar": {
+    "color": "",
+    "selectedColor": "",
+    "backgroundColor": "",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/fistPage/fistPage",
+        "text": "每日一题",
+        "iconPath": "images/incons/home.png",
+        "selectedIconPath": "images/incons/home-o.png"
+      },
+      {
+        "pagePath": "pages/find/index",
+        "text": "发布题目",
+        "iconPath": "images/incons/_search.png",
+        "selectedIconPath": "images/incons/search.png"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "text": "个人中心",
+        "iconPath": "images/incons/my.png",
+        "selectedIconPath": "images/incons/my-o.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

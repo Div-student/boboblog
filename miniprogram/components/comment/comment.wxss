@@ -1,0 +1,32 @@
+.commentWrap{
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60rpx;
+}
+.commentWrap .iconfont {
+  font-size: 40rpx;
+  color: rgb(87, 84, 84);
+}
+.commentBtn{
+  background-color: #d43c33;
+  color: #fff;
+}
+.shareBtn{
+  background-color:#fff;
+  color:  rgb(87, 84, 84);
+  font-size: 32rpx;
+  font-weight: 400;
+  min-height: 50rpx!important;
+  height: 50rpx!important;
+  line-height: 50rpx!important;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 30rpx;
+  
+  font-size: 30rpx;
+  font-weight: 300; */
+}

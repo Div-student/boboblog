@@ -1,0 +1,5 @@
+.loginBtn{
+  margin: 100rpx;
+  background: #d43c33;
+  color: #fff;
+}

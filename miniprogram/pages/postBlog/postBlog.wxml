@@ -1,0 +1,22 @@
+<view>
+  <view class="contain">
+    <textarea class="content" maxlength='21' placeholder="请输入新鲜事....." auto-focus bindinput="getText" bindfocus='focusText' bindblur="blurText"></textarea>
+    <view class="imgList">
+      <block wx:for='{{imgList}}' wx:key='*this'>
+        <view class="imgWrap imgClass">
+          <i class='iconfont icon-delete' bindtap='deletImg' data-index='{{index}}'></i>
+          <image src="{{item}}" mode="aspectFill" bindtap="viewImg" data-imgUrl="{{item}}"></image>
+        </view>
+      </block>
+      <view class="imgWrap addClass" bindtap="chooseImg" hidden="{{!showAdd}}">
+        <i class='iconfont icon-add'></i>
+      </view>
+    </view>
+  </view>
+  <view class="footer" style="bottom: {{keyHeight}}px">
+    <view class="wordCounts">{{wordsCount>20?"允许输入的最大长度为180":wordsCount}}</view>
+    <view class="btnWrap">
+      <button class="postBtn" size="mini" bind:tap='postBlog'>发布</button>
+    </view>
+  </view>
+</view>

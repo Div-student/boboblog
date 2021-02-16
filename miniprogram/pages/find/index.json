@@ -1,0 +1,12 @@
+{
+  "usingComponents": {
+    "find_search": "../../components/findSearch/findSearch",
+    "loginAthourity": "../../components/login/login",
+    "blog-card": "../../components/blogCard/blogCard",
+    "blog-comment": "../../components/comment/comment"
+  },
+  "navigationBarTitleText": "发布题目",
+  "enablePullDownRefresh": true,
+  "backgroundColor": "#eeeeee",
+  "backgroundTextStyle": "light"
+}

@@ -1,0 +1,23 @@
+<view class="blogDetail">
+  <view class="blogCard">
+    <blog-card blogList="{{blogInfo}}"/>
+  </view>
+  <view class="commentList">
+    <view class="commentHeard">评论列表</view>
+    <view class="listWrap">
+      <block wx:for="{{commentList}}" wx:key="_id">
+        <view class="content">
+          <view class="userInfo">
+            <image class="userImg" mode="widthFill" src="{{item.avatarUrl}}"></image>
+            <text>{{item.nickName}}</text>
+          </view>
+          <view class="detail">{{item.content}}</view>
+          <view class="comentTiem">{{item.postTime}}</view>
+        </view>
+      </block>
+    </view>
+  </view>
+  <view class="blogComent">
+   <blog-comment bindsuccessPost='successPost' blogInfo='{{blogInfo}}'/>
+  </view>
+</view>

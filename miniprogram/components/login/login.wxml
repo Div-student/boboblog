@@ -1,0 +1,3 @@
+<loginAthour isShowModal="{{isShowModal}}">
+  <button slot="modalContent" class="loginBtn" open-type="getUserInfo" bindgetuserinfo='on_getUserInfo'>请进行微信授权</button>
+</loginAthour>

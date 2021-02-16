@@ -1,0 +1,25 @@
+<view class="container">
+  <view class="findHeader">
+    <view class="postBtn" bindtap="postBlog">
+      <i class="iconfont icon-fabu"></i>
+    </view>
+    <view class="searchContent">
+      <find_search icon-search='icon-search' iconfont="iconfont" bindsearchValue="searchValue"></find_search>
+    </view>
+  </view>
+  <view class="blogContent">
+    <block wx:for='{{blogList}}' wx:key='_id'>
+      <view class="blogCard">
+        <blog-card blogList="{{item}}" bindtap='toBlogDetai' data-blogId='{{item._id}}'></blog-card>
+        <blog-comment blogInfo="{{item}}" bottomPosition="{{bottomPosition}}"></blog-comment>
+      </view>
+    </block>
+  </view>
+  <!-- 底部弹框 -->
+  <view>
+    <loginAthourity isShowModal="{{isShowModal}}" bind:getUserInfo_success="getUserInfo_success"
+      bind:getUserInfo_fail="getUserInfo_fail"
+    >
+    </loginAthourity>
+  </view>
+</view>

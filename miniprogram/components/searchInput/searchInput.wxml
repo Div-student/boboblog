@@ -1,0 +1,5 @@
+<view class='inputWrap'>
+  <navigator class="navyWrap" target="" url="/pages/search/index" hover-class="navigator-hover" open-type="navigate">
+    请输入搜索商品名
+  </navigator>
+</view>

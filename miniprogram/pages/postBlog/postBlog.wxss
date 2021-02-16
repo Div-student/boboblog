@@ -1,0 +1,68 @@
+.contain{
+  padding: 20rpx;
+}
+.content{
+  width: 100%;
+  height: 360rpx;
+}
+.imgWrap{
+  width: 200rpx;
+  height: 200rpx;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 200rpx;
+  margin: 0 15rpx 15rpx 10rpx;
+}
+.addClass{
+  border: 1px dotted #6666;
+}
+.imgClass{
+  position: relative;
+}
+.icon-delete{
+  display: inline-block;
+  height: 16px;
+  position: absolute;
+  top: -40px;
+  right: 2px;
+  font-weight: bold;
+  color: #666;
+}
+.imgWrap image{
+  width: 100%;
+  height: 100%;
+}
+.icon-add{
+  font-weight: bold;
+  color: #666;
+}
+.footer{
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100rpx;
+  background-color: rgba(0, 0, 0, .1);
+}
+.wordCounts{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20rpx;
+}
+.postBtn{
+  background-color: red;
+  color: #fff;
+  margin-right: 10rpx;
+}
+.btnWrap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imgList{
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}

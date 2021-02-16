@@ -1,0 +1,11 @@
+<view class='commentWrap'>
+  <view bindtap='addComment'> <i class='iconfont icon-comments'/> 评论</view>
+  <view> <button class="shareBtn" open-type="share"><i class='iconfont icon-share'/> 分享</button></view>
+</view>
+<login isShowModal="{{isShowLogin}}" bindgetUserInfo_success="getUserInfo_success" bind:getUserInfo_fail="getUserInfo_fail"/>
+<bottom-Modal isShowModal="{{isShowComment}}" bottomPosition="{{bottomPosition}}">
+  <form slot="modalContent" report-submit="true" bind:submit="postComment">
+    <textarea name='content' placeholder="输入评论" ></textarea>
+    <button class="commentBtn" form-type="submit">评论</button>
+  </form>
+</bottom-Modal>

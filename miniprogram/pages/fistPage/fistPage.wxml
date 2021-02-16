@@ -1,0 +1,13 @@
+<view class="pageWrap">
+  <view class="questionWrap">
+    <view class="questTitle">每日一题</view>
+    <view class="questionContent">
+      <view class="quQ">
+        <text>Q:</text><text>如何中断ajax请求？</text>
+      </view>
+      <view class="quA">
+        <text>A:</text><text>一种是设置超时时间让ajax自动断开，另一种是手动停止ajax请求，其核心是调用XML对象的abort方法，ajax.abort()</text>
+      </view>
+    </view>
+  </view>
+</view>

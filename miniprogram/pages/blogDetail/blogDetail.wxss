@@ -1,0 +1,41 @@
+.blogDetail{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  height: 100vh;
+}
+.blogComent{
+  width: 100%;
+  height: 100rpx;
+}
+.commentList{
+  flex:1;
+  background-color: #fff;
+  padding: 10rpx;
+  box-sizing: border-box;
+  overflow: auto;
+}
+.userInfo{
+  display: flex;
+  align-items: center;
+}
+.userImg{
+  width: 50rpx;
+  height: 50rpx;
+  border-radius: 25rpx;
+}
+.detail{
+  font-size: 24rpx;
+}
+.commentHeard{
+  border-bottom: 1px solid rgb(150, 146, 146);
+  margin-bottom: 10rpx;
+}
+.comentTiem{
+  font-size: 20rpx;
+  color: rgb(114, 109, 109);
+}
+.content{
+  margin-top: 10rpx;
+  box-shadow: 1px 1px 1px 1px #ccc;
+}
